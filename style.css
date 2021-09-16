@@ -1,112 +1,53 @@
 body {
-    margin: 0;
-    padding-top: 800px;
-    text-align: center;
+    font-family: 'Akaya Telivigala';
+    background-color: antiquewhite;
 }
 
-.profile {
-    width: 175px;
-    margin-bottom: 50px;
-    border-radius: 50%;
+.header_div {
+    background: #95a3a4;
+    color: white;
+    font-family: 'Dancing Script', cursive;
 }
 
-#welcome {
-    position: absolute;
-    overflow: hidden;
-    height: 800px;
-    color: #FFFF;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    opacity: 0.83;
-    background: linear-gradient(#03d3fc 0%, #04db3e 100%);
-    display: table;
+.col-xs-12 {
     width: 100%;
-    height: 100%;
-    z-index: 9;
 }
 
-.parallax-inner {
-    display: table-cell;
-    position: relative;
-    text-align: center;
-    vertical-align: middle;
-}
-
-h1 {
-    font-size: 40px;
-    line-height: 1.2;
-    font-family: inherit;
-    font-weight: 300;
-}
-
-#name {
+.header_div h2 {
     font-size: 30px;
-    line-height: 1.2;
-    font-family: 'Cinzel Decorative', cursive;
 }
 
-h2 {
-    font-size: 30px;
-    font-weight: 300;
-    line-height: 1.2;
-    font-family: monospace;
+.header_div p {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    font-size: 12px;
+    font-weight: bold;
 }
 
-#bio {
-    padding: 50px;
-    text-align: center;
-    font-size: 42px;
+.main_div button {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 30px;
+    width: 130px;
+    font-weight: bolder;
+    letter-spacing: 3px;
 }
 
-.line {
-    height: 7px;
-    background-color: #000;
-    width: 70px;
-    margin: 8px auto;
+.main_div h4 {
+    font-size: 18px;
 }
 
-p {
-    max-width: 450px;
-    margin: 25px auto;
-    font-size: 17px;
-    line-height: 1.3;
+.main_div h3 {
+    font-size: 24px;
 }
 
-.menu {
-    list-style: none;
-    font-family: sans-serif;
+.copy_right_footer {
     position: fixed;
-    top: 10px;
-    right: 30px;
-    z-index: 10;
-    cursor: pointer;
-}
-
-.links {
-    float: left;
-    color: #FFF;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 9px;
-    padding-right: 9px;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 20px;
-}
-
-.links:hover {
-    background-color: darkgray;
-}
-
-a {
-    text-decoration: none;
-}
-
-.article:hover {
-    color: crimson;
-}
-
-html {
-    scroll-behavior: smooth;
+    color: #6c757d;
+    bottom: 0;
+    width: 100%;
+    font-size: 18px;
+    background-color: #f5f5f5;
+    line-height: 3;
+    text-align: center;
+    text-shadow: 5px 5px 5px rgb(151 149 149);
 }
